@@ -7,11 +7,11 @@ public class Main {
 
         try {
 
-            Conexao.conectar();
-
             Scanner entrada;
             int opcao;
             Banco JavaBank = new Banco("001");
+
+            Conexao.conectar();
 
             do {
 
